@@ -3,6 +3,8 @@
 #include<stdio.h>
 #define NTHREADS 4
 long global=0;
+
+
 int increment(int i) {
 return i+1;
 }
